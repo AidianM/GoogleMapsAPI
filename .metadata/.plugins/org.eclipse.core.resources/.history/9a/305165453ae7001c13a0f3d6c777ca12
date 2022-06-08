@@ -1,0 +1,10 @@
+package com.tts.mapsapp;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class MapService {
+	@Value("${api_key}")
+	
+
+}

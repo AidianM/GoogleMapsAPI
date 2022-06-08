@@ -1,0 +1,12 @@
+#map {
+    height: 80%;
+}
+.tooling{
+	background-color: green;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #154a23;
+}

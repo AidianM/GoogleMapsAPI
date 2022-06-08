@@ -1,0 +1,20 @@
+
+
+let map;
+let coords = {lat: 30, lng: -90};
+let image = {url: "/markerIcon.png",
+			 scaledSize: new google.map.Size(50,50) };
+
+function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: coords,
+        zoom: 10,
+        scrollwheel: false
+	});
+        
+    let marker = new google.maps.Marker({
+		position: coords,
+		map: map, //map object to be displayed on
+		icon: image 
+    });
+}

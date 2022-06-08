@@ -1,0 +1,9 @@
+package com.tts.mapsapp;
+
+
+public class GeocodingResponse {
+
+	
+}
+
+//this would be a model, in our normal file framework
